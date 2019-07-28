@@ -34,4 +34,5 @@ enum NetworkError : Error{
 
 protocol Network {
     func signUp(with name : String, callback : @escaping (Result<String,NetworkError>)->Void)
+    func save(collection : POICollection)
 }

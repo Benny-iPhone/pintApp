@@ -20,6 +20,11 @@
 		262A15A922EE075600FC33FC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15A822EE075600FC33FC /* Network.swift */; };
 		262A15AB22EE097E00FC33FC /* NetworkFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15AA22EE097E00FC33FC /* NetworkFirebase.swift */; };
 		262A15AD22EE0B2000FC33FC /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15AC22EE0B2000FC33FC /* NetworkTest.swift */; };
+		262A15AF22EE0C2B00FC33FC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15AE22EE0C2B00FC33FC /* MainViewController.swift */; };
+		262A15B122EE0D4B00FC33FC /* CreatePOIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15B022EE0D4B00FC33FC /* CreatePOIViewController.swift */; };
+		262A15B422EE0D8000FC33FC /* POICollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15B322EE0D8000FC33FC /* POICollection.swift */; };
+		262A15B622EE0DAB00FC33FC /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15B522EE0DAB00FC33FC /* PointOfInterest.swift */; };
+		262A15B822EE10A400FC33FC /* CreatePOIVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15B722EE10A400FC33FC /* CreatePOIVCVM.swift */; };
 		CB67435143D01660C40E6122 /* Pods_PintApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4366627158038B2F2FCF7F9A /* Pods_PintApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +44,11 @@
 		262A15A822EE075600FC33FC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		262A15AA22EE097E00FC33FC /* NetworkFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFirebase.swift; sourceTree = "<group>"; };
 		262A15AC22EE0B2000FC33FC /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
+		262A15AE22EE0C2B00FC33FC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		262A15B022EE0D4B00FC33FC /* CreatePOIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePOIViewController.swift; sourceTree = "<group>"; };
+		262A15B322EE0D8000FC33FC /* POICollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POICollection.swift; sourceTree = "<group>"; };
+		262A15B522EE0DAB00FC33FC /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		262A15B722EE10A400FC33FC /* CreatePOIVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePOIVCVM.swift; sourceTree = "<group>"; };
 		3732BDF57D88ABFBE91C6510 /* Pods-PintApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintApp.debug.xcconfig"; path = "Target Support Files/Pods-PintApp/Pods-PintApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4366627158038B2F2FCF7F9A /* Pods_PintApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PintApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B7DA244A06E9704189F273 /* Pods-PintApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintApp.release.xcconfig"; path = "Target Support Files/Pods-PintApp/Pods-PintApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +106,8 @@
 			children = (
 				262A159B22EE016200FC33FC /* FlowController.swift */,
 				262A15A222EE041200FC33FC /* LoginViewController.swift */,
+				262A15B022EE0D4B00FC33FC /* CreatePOIViewController.swift */,
+				262A15AE22EE0C2B00FC33FC /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -103,6 +115,7 @@
 		262A159D22EE016700FC33FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				262A15B222EE0D6A00FC33FC /* Data Structure */,
 				262A15A722EE074D00FC33FC /* Network */,
 				262A159E22EE017400FC33FC /* AppModel.swift */,
 			);
@@ -113,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				262A15A522EE05F100FC33FC /* LoginVCVM.swift */,
+				262A15B722EE10A400FC33FC /* CreatePOIVCVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -125,6 +139,15 @@
 				262A15AC22EE0B2000FC33FC /* NetworkTest.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		262A15B222EE0D6A00FC33FC /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				262A15B322EE0D8000FC33FC /* POICollection.swift */,
+				262A15B522EE0DAB00FC33FC /* PointOfInterest.swift */,
+			);
+			path = "Data Structure";
 			sourceTree = "<group>";
 		};
 		8369461414A3416265CEB1D6 /* Frameworks */ = {
@@ -261,12 +284,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262A15B422EE0D8000FC33FC /* POICollection.swift in Sources */,
 				262A158522EDF0F000FC33FC /* AppDelegate.swift in Sources */,
 				262A159C22EE016200FC33FC /* FlowController.swift in Sources */,
 				262A15AB22EE097E00FC33FC /* NetworkFirebase.swift in Sources */,
+				262A15B822EE10A400FC33FC /* CreatePOIVCVM.swift in Sources */,
+				262A15B622EE0DAB00FC33FC /* PointOfInterest.swift in Sources */,
 				262A15AD22EE0B2000FC33FC /* NetworkTest.swift in Sources */,
 				262A15A322EE041200FC33FC /* LoginViewController.swift in Sources */,
 				262A159F22EE017400FC33FC /* AppModel.swift in Sources */,
+				262A15AF22EE0C2B00FC33FC /* MainViewController.swift in Sources */,
+				262A15B122EE0D4B00FC33FC /* CreatePOIViewController.swift in Sources */,
 				262A15A922EE075600FC33FC /* Network.swift in Sources */,
 				262A15A622EE05F100FC33FC /* LoginVCVM.swift in Sources */,
 			);

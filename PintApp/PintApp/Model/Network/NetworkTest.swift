@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+/*
 struct NetworkTest : Network {
     func signUp(with name: String, callback: @escaping (Result<String, NetworkError>) -> Void) {
         callback(.failure(.invalidData))
@@ -20,3 +20,4 @@ func loginTest(){
     print(vm.isValid == false)
 }
 
+*/
