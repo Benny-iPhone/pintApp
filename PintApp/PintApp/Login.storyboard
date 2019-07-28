@@ -13,7 +13,7 @@
         <!--Login-->
         <scene sceneID="WEz-93-vyX">
             <objects>
-                <viewController id="HBA-mI-itk" sceneMemberID="viewController">
+                <viewController id="HBA-mI-itk" customClass="LoginViewController" customModule="PintApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Px7-Eq-gIt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,13 +21,19 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Type Your Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8VP-o0-mXb">
                                 <rect key="frame" x="24" y="164" width="366" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no"/>
+                                <connections>
+                                    <action selector="nameEditingChangedAction:" destination="HBA-mI-itk" eventType="editingChanged" id="yKf-SX-4Ok"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byx-De-0f0">
                                 <rect key="frame" x="24" y="218" width="366" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitAction:" destination="HBA-mI-itk" eventType="touchUpInside" id="nNt-B0-uHn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,6 +48,10 @@
                         <viewLayoutGuide key="safeArea" id="HHq-Le-ebX"/>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="5hI-Jr-XWu"/>
+                    <connections>
+                        <outlet property="button" destination="byx-De-0f0" id="Omb-RL-fbn"/>
+                        <outlet property="nameTextField" destination="8VP-o0-mXb" id="CBb-17-yQR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z9a-T3-LkJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

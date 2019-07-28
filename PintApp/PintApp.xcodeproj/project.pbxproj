@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		262A158522EDF0F000FC33FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A158422EDF0F000FC33FC /* AppDelegate.swift */; };
-		262A158722EDF0F000FC33FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A158622EDF0F000FC33FC /* ViewController.swift */; };
 		262A158A22EDF0F000FC33FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A158822EDF0F000FC33FC /* Main.storyboard */; };
 		262A158C22EDF0F200FC33FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262A158B22EDF0F200FC33FC /* Assets.xcassets */; };
 		262A158F22EDF0F200FC33FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A158D22EDF0F200FC33FC /* LaunchScreen.storyboard */; };
@@ -16,13 +15,17 @@
 		262A159C22EE016200FC33FC /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A159B22EE016200FC33FC /* FlowController.swift */; };
 		262A159F22EE017400FC33FC /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A159E22EE017400FC33FC /* AppModel.swift */; };
 		262A15A122EE027100FC33FC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262A15A022EE027100FC33FC /* Login.storyboard */; };
+		262A15A322EE041200FC33FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15A222EE041200FC33FC /* LoginViewController.swift */; };
+		262A15A622EE05F100FC33FC /* LoginVCVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15A522EE05F100FC33FC /* LoginVCVM.swift */; };
+		262A15A922EE075600FC33FC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15A822EE075600FC33FC /* Network.swift */; };
+		262A15AB22EE097E00FC33FC /* NetworkFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15AA22EE097E00FC33FC /* NetworkFirebase.swift */; };
+		262A15AD22EE0B2000FC33FC /* NetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262A15AC22EE0B2000FC33FC /* NetworkTest.swift */; };
 		CB67435143D01660C40E6122 /* Pods_PintApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4366627158038B2F2FCF7F9A /* Pods_PintApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		262A158122EDF0F000FC33FC /* PintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		262A158422EDF0F000FC33FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		262A158622EDF0F000FC33FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		262A158922EDF0F000FC33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		262A158B22EDF0F200FC33FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		262A158E22EDF0F200FC33FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,6 +34,11 @@
 		262A159B22EE016200FC33FC /* FlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
 		262A159E22EE017400FC33FC /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppModel.swift; path = PintApp/Controller/AppModel.swift; sourceTree = SOURCE_ROOT; };
 		262A15A022EE027100FC33FC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		262A15A222EE041200FC33FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		262A15A522EE05F100FC33FC /* LoginVCVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCVM.swift; sourceTree = "<group>"; };
+		262A15A822EE075600FC33FC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		262A15AA22EE097E00FC33FC /* NetworkFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFirebase.swift; sourceTree = "<group>"; };
+		262A15AC22EE0B2000FC33FC /* NetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTest.swift; sourceTree = "<group>"; };
 		3732BDF57D88ABFBE91C6510 /* Pods-PintApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintApp.debug.xcconfig"; path = "Target Support Files/Pods-PintApp/Pods-PintApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4366627158038B2F2FCF7F9A /* Pods_PintApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PintApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B7DA244A06E9704189F273 /* Pods-PintApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintApp.release.xcconfig"; path = "Target Support Files/Pods-PintApp/Pods-PintApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,10 +77,10 @@
 		262A158322EDF0F000FC33FC /* PintApp */ = {
 			isa = PBXGroup;
 			children = (
+				262A15A422EE05DB00FC33FC /* ViewModel */,
 				262A159D22EE016700FC33FC /* Model */,
 				262A159A22EE014F00FC33FC /* Controller */,
 				262A158422EDF0F000FC33FC /* AppDelegate.swift */,
-				262A158622EDF0F000FC33FC /* ViewController.swift */,
 				262A158822EDF0F000FC33FC /* Main.storyboard */,
 				262A15A022EE027100FC33FC /* Login.storyboard */,
 				262A158B22EDF0F200FC33FC /* Assets.xcassets */,
@@ -87,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				262A159B22EE016200FC33FC /* FlowController.swift */,
+				262A15A222EE041200FC33FC /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,9 +103,28 @@
 		262A159D22EE016700FC33FC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				262A15A722EE074D00FC33FC /* Network */,
 				262A159E22EE017400FC33FC /* AppModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		262A15A422EE05DB00FC33FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				262A15A522EE05F100FC33FC /* LoginVCVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		262A15A722EE074D00FC33FC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				262A15A822EE075600FC33FC /* Network.swift */,
+				262A15AA22EE097E00FC33FC /* NetworkFirebase.swift */,
+				262A15AC22EE0B2000FC33FC /* NetworkTest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		8369461414A3416265CEB1D6 /* Frameworks */ = {
@@ -233,10 +261,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				262A158722EDF0F000FC33FC /* ViewController.swift in Sources */,
 				262A158522EDF0F000FC33FC /* AppDelegate.swift in Sources */,
 				262A159C22EE016200FC33FC /* FlowController.swift in Sources */,
+				262A15AB22EE097E00FC33FC /* NetworkFirebase.swift in Sources */,
+				262A15AD22EE0B2000FC33FC /* NetworkTest.swift in Sources */,
+				262A15A322EE041200FC33FC /* LoginViewController.swift in Sources */,
 				262A159F22EE017400FC33FC /* AppModel.swift in Sources */,
+				262A15A922EE075600FC33FC /* Network.swift in Sources */,
+				262A15A622EE05F100FC33FC /* LoginVCVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
