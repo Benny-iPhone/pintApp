@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>558739616840-too2o200mt5jk4q3u4i1n6p6b253n28b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.558739616840-too2o200mt5jk4q3u4i1n6p6b253n28b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCKAJltyQvO12hyWpsYdIBCcevsJkZ2RcM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>558739616840</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hackeru.PintApp</string>
+	<key>PROJECT_ID</key>
+	<string>pintapp-654d8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pintapp-654d8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:558739616840:ios:6fe304f123a2d536</string>
+	<key>DATABASE_URL</key>
+	<string>https://pintapp-654d8.firebaseio.com</string>
+</dict>
+</plist>
